@@ -90,11 +90,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
       <div class="media block-6 services mb-md-0 mb-4">
         <div class="icon bg-color-2 d-flex justify-content-center align-items-center mb-2">
-              <span class="flaticon-diet"></span>
+              <span class="flaticon-box"></span>
         </div>
         <div class="media-body">
-          <h3 class="heading">Selalu Segar</h3>
-          <span>Dipetik Langsung dari Kebun</span>
+          <h3 class="heading">Harga Termurah</h3>
+          <span>Dipilih dari Distributor pilihan</span>
         </div>
       </div>    
     </div>
@@ -105,7 +105,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <div class="media-body">
           <h3 class="heading">Kualitas Terbaik</h3>
-          <span>Kualitas dari Pertanian Terbaik</span>
+          <span>Kualitas dari Distributor Terbaik</span>
         </div>
       </div>      
     </div>
