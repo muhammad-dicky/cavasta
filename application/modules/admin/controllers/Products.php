@@ -123,7 +123,7 @@ class Products extends CI_Controller {
         $this->form_validation->set_rules('price', 'Harga produk', 'trim|required');
         $this->form_validation->set_rules('stock', 'Stok barang', 'required|numeric');
         $this->form_validation->set_rules('unit', 'Satuan barang', 'required');
-        $this->form_validation->set_rules('description', 'Deskripsi produk', 'max_length[512]');
+        $this->form_validation->set_rules('description', 'Deskripsi produk', 'max_length[1000]');
         
         if ($this->form_validation->run() == FALSE)
         {
@@ -212,7 +212,7 @@ class Products extends CI_Controller {
         $this->form_validation->set_rules('price', 'Harga produk', 'trim|required');
         $this->form_validation->set_rules('stock', 'Stok barang', 'required|numeric');
         $this->form_validation->set_rules('unit', 'Satuan barang', 'required');
-        $this->form_validation->set_rules('description', 'Deskripsi produk', 'max_length[512]');
+        $this->form_validation->set_rules('description', 'Deskripsi produk', 'max_length[1000]');
         
         if ($this->form_validation->run() == FALSE)
         {

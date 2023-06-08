@@ -70,7 +70,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                   <div class="input-group-prepend">
                                       <span class="input-group-text"><i class="ni ni-box-2"></i></span>
                                   </div>
-                                  <input name="name" class="form-control" placeholder="Nama " type="text" minlength="4" maxlength="255" required>
+                                  <input name="name" class="form-control" placeholder="Nama " type="text" minlength="1" maxlength="255" required>
                                 </div>
                                 <div class="text-danger err name-error"></div>
                           </div>
@@ -132,7 +132,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                   <div class="input-group-prepend">
                                       <span class="input-group-text"><i class="ni ni-box-2"></i></span>
                                   </div>
-                                  <input name="name" class="form-control edit-name" placeholder="Nama paket" type="text" minlength="4" maxlength="100" required>
+                                  <input name="name" class="form-control edit-name" placeholder="Nama paket" type="text" minlength="1" maxlength="100" required>
                                 </div>
                                 <div class="text-danger err name-error"></div>
                           </div>

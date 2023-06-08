@@ -33,7 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <div class="col-md-3 d-flex">
             <div class="info bg-white p-4">
-              <p><span>Website</span> www.tokosayur22.com</p>
+              <p><span>Website</span>-</p>
             </div>
         </div>
       </div>
@@ -69,9 +69,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-6 d-flex">
             <div style="width: 100%">
-                <iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=-3.7576348,102.2873882&amp;q=Kost%20Indah%20Jaya%20Belakang%20No.%2019%2C%20Jl.%20Medan%20Baru%20VI%2C%20Kandang%20Limun%2C%20Bengkulu+(Toko%20Sayur%2022)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                    <a href="https://www.maps.ie/coordinates.html">find my coordinates</a>
-                </iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.825066497158!2d109.70004516904832!3d-7.701913859272002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7ac94e663143cb%3A0x7d895801ee2393d!2sCavasta%20Garage!5e0!3m2!1sen!2sid!4v1686236710262!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+               
             </div>
         </div>
       </div>

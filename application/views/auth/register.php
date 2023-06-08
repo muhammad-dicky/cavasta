@@ -30,7 +30,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <style>
         .input--style-2:hover {
-            border-bottom: 1px solid #FA4251;
+            border-bottom: 1px solid #474747;
             color: #4DAE3C
         }
     </style>

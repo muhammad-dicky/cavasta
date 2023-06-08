@@ -147,11 +147,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div class="container">
           <div class="row justify-content-end">
     <div class="col-md-6 heading-section ftco-animate deal-of-the-day ftco-animate">
-        <span class="subheading">Produk dengan Harga Terbaik</span>
-      <h2 class="mb-4">Deal of the day</h2>
-      <p><?php echo $best_deal->description; ?></p>
-      <h3><a href="#"><?php echo $best_deal->name; ?></a></h3>
-      <span class="price">Rp <?php echo format_rupiah($best_deal->price); ?> <a href="#">sekarang hanya Rp <?php echo format_rupiah($best_deal->price - $best_deal->current_discount); ?></a></span>
+        <span class="subheading" style="color:white;font:bold;">Produk dengan Harga Terbaik</span>
+      <h2 class="mb-4" style="color:white;">Deal of the day</h2>
+      <p style="color:white;"><?php echo $best_deal->description; ?></p>
+      <h3 style="color:white;"><a href="#"style="color:white;"><?php echo $best_deal->name; ?></a></h3>
+      <span class="price" style="color:white;">Rp <?php echo format_rupiah($best_deal->price); ?> <a href="#" style="color:white;">sekarang hanya Rp <?php echo format_rupiah($best_deal->price - $best_deal->current_discount); ?></a></span>
       <div id="timer" class="d-flex mt-5">
         <div class="time pl-3">
           <a href="#" class="btn btn-primary add-cart" data-sku="<?php echo $best_deal->sku; ?>" data-name="<?php echo $best_deal->name; ?>" data-price="<?php echo ($best_deal->current_discount > 0) ? ($best_deal->price - $best_deal->current_discount) : $best_deal->price; ?>" data-id="<?php echo $best_deal->id; ?>"><i class="ion-ios-cart"></i></a>
