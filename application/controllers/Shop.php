@@ -147,6 +147,8 @@ class Shop extends CI_Controller {
                 get_template_part('shop/checkout', $params);
                 get_footer();
             break;
+
+            // INI CASE ORDERNYA
             case 'order' :
                 $quantity = $this->session->userdata('order_quantity');
 
@@ -162,6 +164,8 @@ class Shop extends CI_Controller {
                 $phone_number = $this->input->post('phone_number');
                 $address = $this->input->post('address');
                 $note = $this->input->post('note');
+
+
 
                 $delivery_data = array(
                     'customer' => array(
@@ -191,6 +195,11 @@ class Shop extends CI_Controller {
                 $n = 0;
                 foreach ($quantity as $id => $data)
                 {
+                    // fungsi uji coba stock
+                    $this->product->reduce_product_stock($id, $data['qty']);
+                    // batas bawah test
+
+
                     $items[$n]['order_id'] = $order;
                     $items[$n]['product_id'] = $id;
                     $items[$n]['order_qty'] = $data['qty'];

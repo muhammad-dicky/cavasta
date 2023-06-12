@@ -53,6 +53,17 @@ class Product_model extends CI_Model {
         return $this->db->insert_id();
     }
 
+    public function reduce_product_stock($product_id, $quantity)
+    {
+        $product = $this->db->get_where('products', array('id' => $product_id))->row();
+
+        if($product){
+            $newstock = $product->stock - $quantity;
+            $this->db->where('id', $product_id);
+            $this->db->update('products', array('stock' => $newstock));
+        }
+    }
+
     public function create_order_items($data)
     {
         return $this->db->insert_batch('order_items', $data);
