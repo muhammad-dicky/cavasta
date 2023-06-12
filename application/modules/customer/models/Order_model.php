@@ -21,8 +21,10 @@ class Order_model extends CI_Model {
     public function count_process_order()
     {
         $id = $this->user_id;
-
+        
         return $this->db->where(array('user_id' => $id, 'order_status' => 2))->get('orders')->num_rows();
+        // create query to update stock
+        // return $this->db->update('products', $data, array('id' => $product_id));
     }
 
     public function get_all_orders($limit, $start)
