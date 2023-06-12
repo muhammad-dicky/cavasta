@@ -38,10 +38,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <?php endif; ?>
               </div>
               <div class="card-body p-0">
-              <div>
+              <div class="overflow-auto;">
                   <img alt="<?php echo $product->name; ?>" class="img img-fluid rounded" src="<?php echo base_url('assets/uploads/products/'. $product->picture_name); ?>">
               </div>
 
+              <div class="overflow-auto">
                 <table class="table table-hover table-striped">
                     <tr>
                         <td>Nama</td>
@@ -75,7 +76,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <?php echo ($product->stock > 0) ? $product->stock .' '. $product->product_unit : 'Stok habis'; ?>
                         </b></td>
                     </tr>
-                    <tr>
+                    <tr class="">
                         <td>Deskripsi</td>
                         <td>:</td>
                         <td><b><?php echo $product->description; ?></b></td>
@@ -88,6 +89,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </td>
                     </tr>
                 </table>
+
+                </div>
+
+
+
               </div>
               <div class="card-footer text-right">
                   <a href="<?php echo site_url('admin/products/edit/'. $product->id); ?>" class="btn btn-warning"><i class="fa fa-edit"></i></a>

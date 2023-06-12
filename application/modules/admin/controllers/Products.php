@@ -136,7 +136,7 @@ class Products extends CI_Controller {
             $price = $this->input->post('price');
             $stock = $this->input->post('stock');
             $unit = $this->input->post('unit');
-            $desc = $this->input->post('desc');
+            $description = $this->input->post('description');
             $date = date('Y-m-d H:i:s');
 
             $config['upload_path'] = './assets/uploads/products/';
@@ -168,7 +168,7 @@ class Products extends CI_Controller {
             $product['category_id'] = $category_id;
             $product['sku'] = $sku;
             $product['name'] = $name;
-            $product['description'] = $desc;
+            $product['description'] = $description;
             $product['price'] = $price;
             $product['stock'] = $stock;
             $product['product_unit'] = $unit;
@@ -178,7 +178,7 @@ class Products extends CI_Controller {
             $this->product->add_new_product($product);
             $this->session->set_flashdata('add_new_product_flash', 'Produk baru berhasil ditambahkan!');
 
-            redirect('admin/products/add_new_product');
+            redirect('admin/products/view/');
         }
     }
 
@@ -231,7 +231,7 @@ class Products extends CI_Controller {
             $discount = $this->input->post('price_discount');
             $stock = $this->input->post('stock');
             $unit = $this->input->post('unit');
-            $desc = $this->input->post('desc');
+            $description = $this->input->post('description');
             $available = $this->input->post('is_available');
             $date = date('Y-m-d H:i:s');
 
@@ -272,7 +272,7 @@ class Products extends CI_Controller {
 
             $product['category_id'] = $category_id;
             $product['name'] = $name;
-            $product['description'] = $desc;
+            $product['description'] = $description;
             $product['price'] = $price;
             $product['current_discount'] = $discount;
             $product['stock'] = $stock;

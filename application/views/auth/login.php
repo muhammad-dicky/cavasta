@@ -15,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <body>
         <h1>Login ke <?php echo get_store_name(); ?></h1>
         <div class=" w3l-login-form">
-            <h2>Login Akun</h2>
+            <h2 class="text-white" style="color:white !important;">Login Akun</h2>
             <?php if ($flash_message) : ?>
             <div class="flash-message">
                 <?php echo $flash_message; ?>
@@ -50,7 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <!-- <?php echo anchor('auth/forget-password', 'Lupa password?'); ?> -->
                 <p><input type="checkbox" name="remember_me" value="1">Ingat saya</p>
             </div>
-            <button type="submit">Login</button>
+            <button type="submit" style="background-color:grey !important; color:white !important;">Login</button>
             <?php echo form_close(); ?>
         </div>
 

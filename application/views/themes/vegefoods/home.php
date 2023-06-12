@@ -33,7 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
   </div>
 </section>
-
+<!-- 
 <section class="ftco-section" id="products">
       <div class="container">
           <div class="row no-gutters ftco-services">
@@ -83,7 +83,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
   </div>
       </div>
-  </section>
+  </section> -->
 
 
   <section class="ftco-section">

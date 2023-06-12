@@ -92,6 +92,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   </div>
                 </div>
 
+                
                 <div class="form-group">
                   <label class="form-control-label" for="desc">Deskripsi:</label>
                   <textarea name="description" class="form-control" id="desc"><?php echo set_value('description'); ?></textarea>
