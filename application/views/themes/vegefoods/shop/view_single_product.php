@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="col-lg-6 product-details pl-md-5 ftco-animate">
                   <h3><?php echo $product->name; ?></h3>
-                  <div class="rating d-flex">
+                  <!-- <div class="rating d-flex">
                           <p class="text-left mr-4">
                               <a href="#" class="mr-2">5.0</a>
                               <a href="#"><span class="ion-ios-star-outline"></span></a>
@@ -37,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                           <p class="text-left">
                               <a href="#" class="mr-2" style="color: #000;">500 <span style="color: #bbb;">Sold</span></a>
                           </p>
-                      </div>
+                      </div> -->
                   <p class="price">
                       <?php if ($product->current_discount > 0) : ?>
                         <span class="mr-2 price-dc"><strike><small>Rp <?php echo format_rupiah($product->price); ?></small></strike></span>

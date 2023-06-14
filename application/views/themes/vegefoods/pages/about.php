@@ -70,7 +70,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </section>
 
   
-<section class="ftco-section">
+<!-- <section class="ftco-section">
       <div class="container">
           <div class="row no-gutters ftco-services">
     <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
@@ -119,4 +119,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
   </div>
       </div>
-  </section>
+  </section> -->
